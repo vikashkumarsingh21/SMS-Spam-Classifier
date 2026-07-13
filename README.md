@@ -18,6 +18,242 @@
 ---
 
 
+
+
+# 📌 Project Overview
+
+SpamShield AI is a Machine Learning based Email and SMS Spam Detection System designed to identify spam, phishing, and legitimate messages with high accuracy.
+
+The application uses Natural Language Processing (NLP) techniques combined with a trained Machine Learning model to classify incoming messages into:
+
+- ✅ Legitimate Message
+- 🚨 Spam Message
+
+The complete application is developed using **Python** and **Streamlit**, providing a clean, responsive, and modern web interface.
+
+---
+
+# 🚀 Features
+
+### Machine Learning
+
+- Pre-trained Spam Detection Model
+- TF-IDF Text Vectorization
+- Natural Language Processing
+- Text Preprocessing
+- Binary Classification
+
+---
+
+# ⚡ Quick Test
+
+1. Open the application.
+2. Copy any message from the **Sample Messages** section.
+3. Paste it into the text box.
+4. Click **Analyze Message**.
+5. Verify whether the prediction matches the **Expected Result**.
+
+---
+
+### User Interface
+
+- Modern SaaS Dashboard
+- Professional Clean Design
+- Responsive Layout
+- Interactive Analytics
+- Live Prediction
+- Message Statistics
+- Confidence Score (if supported)
+- Session Analytics
+
+---
+
+### Security Features
+
+- Spam Detection
+- Phishing Detection
+- Malicious Message Identification
+- Safe Message Classification
+
+---
+
+# 📂 Project Structure
+
+```
+SpamShield-AI/
+│
+├── app.py
+├── model.pkl
+├── vectorizer.pkl
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── spam.csv (optional)
+└── screenshots/
+```
+
+---
+
+# 🧠 Machine Learning Pipeline
+
+```
+User Message
+      │
+      ▼
+Text Preprocessing
+      │
+      ▼
+Lowercase Conversion
+      │
+      ▼
+Tokenization
+      │
+      ▼
+Stopword Removal
+      │
+      ▼
+Stemming
+      │
+      ▼
+TF-IDF Vectorization
+      │
+      ▼
+Machine Learning Model
+      │
+      ▼
+Spam / Legitimate
+```
+
+---
+
+# ⚙️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Programming Language |
+| Streamlit | Web Application |
+| Scikit-Learn | Machine Learning |
+| NLTK | NLP Processing |
+| Pandas | Data Handling |
+| NumPy | Numerical Computing |
+| Pickle | Model Serialization |
+
+---
+
+# 🧠 Machine Learning Workflow
+
+### Data Collection
+
+Spam Dataset
+
+↓
+
+### Data Cleaning
+
+↓
+
+### Text Preprocessing
+
+↓
+
+### Feature Extraction
+
+↓
+
+### TF-IDF Vectorization
+
+↓
+
+### Model Training
+
+↓
+
+### Model Evaluation
+
+↓
+
+### Save Model (.pkl)
+
+↓
+
+### Deploy using Streamlit
+
+---
+
+# 📊 Features Included
+
+- Email Spam Detection
+- SMS Spam Detection
+- Message Analysis
+- Character Counter
+- Word Counter
+- Sentence Counter
+- Link Detection
+- Email Detection
+- Phone Number Detection
+- Response Time
+- Session Statistics
+
+---
+
+# 📸 Screenshots
+
+## Home Page
+
+(Add Screenshot Here)
+
+---
+
+## Detection Page
+
+(Add Screenshot Here)
+
+---
+
+## Analytics Dashboard
+
+(Add Screenshot Here)
+
+---
+
+# 💻 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/vikashkumarsingh21/SMS-Spam-Classifier.git
+```
+
+Go to project folder
+
+```bash
+cd SpamShield-AI
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# 🌐 Live Demo
+
+Website
+
+```
+https://spam-shield-ai.streamlit.app/
+```
+
+---
+
 # 🧪 Sample Messages for Testing
 
 Use the following sample messages to test the SpamShield AI application.
@@ -199,228 +435,6 @@ The prediction depends on the Machine Learning model used during training.
 
 Different models and datasets may classify some messages differently based on the learned patterns.
 
-# 📌 Project Overview
-
-SpamShield AI is a Machine Learning based Email and SMS Spam Detection System designed to identify spam, phishing, and legitimate messages with high accuracy.
-
-The application uses Natural Language Processing (NLP) techniques combined with a trained Machine Learning model to classify incoming messages into:
-
-- ✅ Legitimate Message
-- 🚨 Spam Message
-
-The complete application is developed using **Python** and **Streamlit**, providing a clean, responsive, and modern web interface.
-
----
-
-# 🚀 Features
-
-### Machine Learning
-
-- Pre-trained Spam Detection Model
-- TF-IDF Text Vectorization
-- Natural Language Processing
-- Text Preprocessing
-- Binary Classification
-
----
-
-### User Interface
-
-- Modern SaaS Dashboard
-- Professional Clean Design
-- Responsive Layout
-- Interactive Analytics
-- Live Prediction
-- Message Statistics
-- Confidence Score (if supported)
-- Session Analytics
-
----
-
-### Security Features
-
-- Spam Detection
-- Phishing Detection
-- Malicious Message Identification
-- Safe Message Classification
-
----
-
-# 📂 Project Structure
-
-```
-SpamShield-AI/
-│
-├── app.py
-├── model.pkl
-├── vectorizer.pkl
-├── requirements.txt
-├── README.md
-├── .gitignore
-├── spam.csv (optional)
-└── screenshots/
-```
-
----
-
-# 🧠 Machine Learning Pipeline
-
-```
-User Message
-      │
-      ▼
-Text Preprocessing
-      │
-      ▼
-Lowercase Conversion
-      │
-      ▼
-Tokenization
-      │
-      ▼
-Stopword Removal
-      │
-      ▼
-Stemming
-      │
-      ▼
-TF-IDF Vectorization
-      │
-      ▼
-Machine Learning Model
-      │
-      ▼
-Spam / Legitimate
-```
-
----
-
-# ⚙️ Technologies Used
-
-| Technology | Purpose |
-|------------|---------|
-| Python | Programming Language |
-| Streamlit | Web Application |
-| Scikit-Learn | Machine Learning |
-| NLTK | NLP Processing |
-| Pandas | Data Handling |
-| NumPy | Numerical Computing |
-| Pickle | Model Serialization |
-
----
-
-# 🧠 Machine Learning Workflow
-
-### Data Collection
-
-Spam Dataset
-
-↓
-
-### Data Cleaning
-
-↓
-
-### Text Preprocessing
-
-↓
-
-### Feature Extraction
-
-↓
-
-### TF-IDF Vectorization
-
-↓
-
-### Model Training
-
-↓
-
-### Model Evaluation
-
-↓
-
-### Save Model (.pkl)
-
-↓
-
-### Deploy using Streamlit
-
----
-
-# 📊 Features Included
-
-- Email Spam Detection
-- SMS Spam Detection
-- Message Analysis
-- Character Counter
-- Word Counter
-- Sentence Counter
-- Link Detection
-- Email Detection
-- Phone Number Detection
-- Response Time
-- Session Statistics
-
----
-
-# 📸 Screenshots
-
-## Home Page
-
-(Add Screenshot Here)
-
----
-
-## Detection Page
-
-(Add Screenshot Here)
-
----
-
-## Analytics Dashboard
-
-(Add Screenshot Here)
-
----
-
-# 💻 Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/YourUsername/SpamShield-AI.git
-```
-
-Go to project folder
-
-```bash
-cd SpamShield-AI
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the application
-
-```bash
-streamlit run app.py
-```
-
----
-
-# 🌐 Live Demo
-
-Website
-
-```
-https://your-streamlit-app.streamlit.app
-```
-
 ---
 
 # 📈 Model Information
@@ -507,13 +521,13 @@ B.Tech Computer Science Engineering (Artificial Intelligence & Machine Learning)
 Machine Learning Enthusiast | Python Developer | AI Developer
 
 GitHub:
-https://github.com/YourUsername
+https://github.com/vikashkumarsingh21/
 
 LinkedIn:
-https://linkedin.com/in/YourProfile
+https://www.linkedin.com/in/vikas-kumar-0803r/
 
 Email:
-your@email.com
+vk0102103@email.com
 
 ---
 
